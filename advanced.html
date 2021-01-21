@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style> 
+        li{
+            float: right;
+            background-color: #f5f5f5; border:none; color:#707070; font-size: 15px; margin: 5px; border-radius: 4px; outline: none
+        }
+        ul
+        {
+            list-style-type: none;
+            overflow: hidden;
+        }
+        h1
+        {
+            color: #d93025;
+        }
+        label
+        {
+            font-family: arial, sans-serif;
+            display: inline-block;
+            width: 250px;
+        }
+        </style>
+        <title>Search</title>
+        <ul>        
+            <li><form style="background-color: #f5f5f5; border:none; color:#707070; font-size: 15px; margin: 5px; border-radius: 4px; outline: none" action="index.html">
+                <input style="color:#707070" type="submit" value="Home">
+            </form></li>
+            <li>
+                <form style="background-color: #f5f5f5; border:none; color:#707070; font-size: 15px; margin: 5px; border-radius: 4px; outline: none" action="images.html">
+                    <input style="color:#707070" type="submit" value="Images">    
+            </form></li>
+        </ul>
+    </head>
+    <body>
+        <h1>Advanced Search</h6>
+        <br>    
+        <form action="http://www.google.com/search">
+            <label for="allwords">All these words:</label>
+            <input style="width:300px; height: 25px; border-radius: 1px; border-color: #d9d9d9;" type="text" name="as_q">
+            <br><br>
+            <label for="This exact word or phrase">This exact word or phrase</label>
+            <input style="width:300px; height: 25px; border-radius: 1px; border-color: #d9d9d9;" type="text" name="as_epq">
+            <br><br>
+            <label for="Any of these words">Any of these words</label>
+            <input style="width:300px; height: 25px; border-radius: 1px; border-color: #d9d9d9;" type="text" name="as_oq">
+            <br><br>
+            <label for="None of these words">None of these words</label>
+            <input style="width:300px; height: 25px; border-radius: 1px; border-color: #d9d9d9;" type="text" name="as_eq">
+            <br><br>
+            <input style="background-color: #4d90fe; box-shadow:none; border: #3079ed; color: #fff; border-radius: 2px; text-align: center; height: 30px; min-width: 120px; " type="submit" value="Advanced search">
+        </form>
+    </body>
+</html>
+

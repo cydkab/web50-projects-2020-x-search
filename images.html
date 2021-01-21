@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style> 
+        li{
+            float: right;
+            background-color: #f5f5f5;
+            border:none;
+            color:#707070;
+            font-size: 15px;
+            margin: 5px;
+            border-radius: 10px;
+            outline: none
+        }
+        ul
+        {
+            list-style-type: none;
+            overflow: hidden;
+        }
+        .groupbar
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+            text-align: center;
+        }
+        </style>
+        <title>Search</title>
+        <ul>        
+            <li><form style="background-color: #f5f5f5; border:none; color:#707070; font-size: 15px; margin: 5px; border-radius: 4px; outline: none" action="index.html">
+                <input type="submit" style="color:#707070" value="Home">
+            </form></li>
+            <li>
+                <form style="background-color: #f5f5f5; border:none; color:#707070; font-size: 15px; margin: 5px; border-radius: 4px; outline: none" action="advanced.html">
+                    <input style="color:#707070" type="submit" value="Advanced Search">    
+            </form></li>
+        </ul>
+    </head>
+    <body>
+        <div class="groupbar">      
+        <div class="logo">
+            <img src = "google.png" alt = "googlee"> 
+        </div>
+        <div class="searchbar">
+            <form action="http://images.google.com/images">
+                <input style="margin:auto; width:575px; border-radius: 30px; border: 1px solid #dcdcdc;" type="text" id="term" name="q">
+                <br>
+                <input style="background-color: #f5f5f5; border:none; color:#707070; font-size: 15px; margin: 5px; border-radius: 4px; outline: none" type="submit" value="Google Search">
+            </form>
+        </div>
+        </div> 
+    </body>
+</html>
+
